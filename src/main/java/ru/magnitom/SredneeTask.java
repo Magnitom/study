@@ -9,8 +9,7 @@ public class SredneeTask {
         int result;
         if (((b >= a) && (b <= c)) || ((b <= a) && (b >= c))) {
             result = b;
-        }
-        if (((a >= b) && (a <= c)) || ((a <= b) && (a >= c))) {
+        }else if (((a >= b) && (a <= c)) || ((a <= b) && (a >= c))) {
             result = a;
         } else result = c;
         return result;

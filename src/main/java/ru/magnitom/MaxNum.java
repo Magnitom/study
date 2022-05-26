@@ -15,25 +15,25 @@ public class MaxNum {
         System.out.println(MaxValue(a, b, c, d));
     }
 
-    public static int MaxValue (int a, int b, int c, int d){
+    public static int MaxValue(int a, int b, int c, int d) {
         int result = Math.max(a, b);
         result = Math.max(result, c);
         result = Math.max(result, d);
         return result;
     }
 
-    public static int MaxValue (int a, int b, int c){
+    public static int MaxValue(int a, int b, int c) {
         int result = Math.max(a, b);
         result = Math.max(result, c);
         return result;
     }
 
-    public static int MaxValue (int a, int b){
+    public static int MaxValue(int a, int b) {
         int result = Math.max(a, b);
         return result;
     }
 
-    public static int MaxValue (int a){
+    public static int MaxValue(int a) {
         return a;
     }
 }
